@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 2rem;
+}
+
+
+
+main {
+    justify-content: center;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border: #F7F7F7 solid 1px;
+    max-width: 60rem;
+    height: max-content;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2); 
+    padding-bottom: 2rem;
+}
+
+.text{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.leaf {
+    width: 30rem;
+    height: 26rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    font-family: 'Geologica', sans-serif;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+#username,
+#email,
+#bio,
+#photo,
+#password,
+#confirmPassword{
+    width: 30rem;
+    height: 2rem;
+    border: none;
+
+}
+
+
+.border {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #fff solid 2px;
+    border-radius: 5px;
+    width: 25rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+ 
+}
+
+button {
+
+    width: 8rem;
+    height: 2.5rem;
+    background-color: #AACB73;
+    border: #AACB73;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+}
+
+
+.text{
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 2rem;
+}
